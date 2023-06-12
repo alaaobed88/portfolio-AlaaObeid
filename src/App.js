@@ -4,7 +4,9 @@ const App = () => {
   return (
     <>
       <Header />
-      <Home />
+      <main>
+        <Home />
+      </main>
     </>
   );
 };
