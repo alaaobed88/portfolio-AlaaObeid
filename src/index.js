@@ -2,4 +2,5 @@ import ReactDom from "react-dom";
 import App from "./App";
 import "./index.css";
 
-ReactDom.render(<App />, document.querySelector("#root"));
+const root = ReactDom.createRoot(document.getElementById("root"));
+root.render(<App />);
